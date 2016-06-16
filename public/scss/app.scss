@@ -1,0 +1,97 @@
+@import "settings";
+@import "foundation";
+
+@mixin vertical-align {
+}
+
+
+html {
+	body {
+		a {
+			color:#ffffff;
+		}
+		.container {
+			background-image:linear-gradient(to right,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+		}
+
+		background-image: linear-gradient(to right,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%),url('../images/bg.jpg');
+		.row {
+			background-color:none;
+		}
+		h1,h2, h3, h4, h5, h6 {
+				text-align: center;
+			}
+		.social-slider {
+			.sstext{
+				margin-top: 100px;
+				font-size: 80px;
+			}
+
+			.user-info {
+				margin-top: 15px;
+				font-size: 60px;
+			}
+
+			.screen-name, .date {
+				margin-top:75px;
+			}
+			img.slick-slider {
+				max-height: 500px;
+			}
+
+			.twit-profile-image, .ig-profile-image {
+				height: 200px;
+				width:	200px;
+				border-radius: 10px;
+			}
+			p {
+				font-size: 48px;
+			}
+			.split-view {
+				margin-top: 15px;
+				p {
+					font-size: 36px;
+				}
+			}
+		}
+		
+	}
+}
+
+// Or selectively include components
+// @import
+//   "foundation/components/accordion",
+//   "foundation/components/alert-boxes",
+//   "foundation/components/block-grid",
+//   "foundation/components/breadcrumbs",
+//   "foundation/components/button-groups",
+//   "foundation/components/buttons",
+//   "foundation/components/clearing",
+//   "foundation/components/dropdown",
+//   "foundation/components/dropdown-buttons",
+//   "foundation/components/flex-video",
+//   "foundation/components/forms",
+//   "foundation/components/grid",
+//   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+//   "foundation/components/orbit",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+//   "foundation/components/sub-nav",
+//   "foundation/components/switch",
+//   "foundation/components/tables",
+//   "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+//   "foundation/components/top-bar",
+//   "foundation/components/type",
+//   "foundation/components/offcanvas",
+//   "foundation/components/visibility";
